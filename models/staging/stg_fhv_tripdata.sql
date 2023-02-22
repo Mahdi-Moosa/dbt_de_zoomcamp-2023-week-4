@@ -23,7 +23,7 @@ select
     Affiliated_base_number,
     dispatching_base_num
 from tripdata
-where rn = 1
+-- where rn = 1
 
 
 -- dbt build --m <model.sql> --var 'is_test_run: false'
